@@ -47,6 +47,25 @@ h1 {
 	text-align: center;
 }
 
+h3 {
+	text-transform: uppercase;
+	font: 36px/36px 'Raleway', sans-serif;
+	color: #fff;
+	text-align: center;
+}
+
+h5 {
+	font: 24px/24px 'Raleway', sans-serif;
+	color: #fff;
+	text-align: center;
+}
+
+p {
+	font: 30px/30px 'Raleway', sans-serif;
+	color: #fff;
+	text-align: center;
+}
+
 .clearfix:before,
 .clearfix:after {
 	content: " ";
@@ -96,6 +115,62 @@ h1 {
 
 .content {
 	width: 1200px;
-	height: 2050px;
+	height: 1980px;
 	margin: 0 auto;
+}
+
+.content__info {
+	width: 1200px;
+	height: 325px;
+}
+
+.content__info h1 {
+	font: 46px/46px 'Raleway', sans-serif;
+	padding-top: 55px;
+}
+
+.content__info h5 {
+	padding-top: 40px;
+}
+
+.content__section {
+	width: 1200px;
+	height: 713px;
+}
+
+.section__block {
+	float: left;
+	width: 50%;
+	height: 713px;
+}
+
+.section__addinfo {
+	width: 1200px;
+	height: 300px;
+}
+
+.section__addinfo h3 {
+	padding-top: 130px;
+}
+
+.section__slider {
+	width: 1200px;
+	height: 600px;
+
+	margin-top: 50px;
+}
+
+.footer {
+	width: 1200px;
+	height: 160px;
+	padding: 20px 0;
+	margin: 0 auto;
+}
+
+.footer__text {
+	text-align: center;
+	padding: 30px 0;
+
+	font: 24px 'Raleway', sans-serif;
+	color: #fff;
 }
