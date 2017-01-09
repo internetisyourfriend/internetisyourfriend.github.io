@@ -149,3 +149,7 @@ h6 {
 	font: 24px 'Cormorant SC', serif;
 	color: #000;
 }
+
+a:hover {
+	color: #820204;
+}

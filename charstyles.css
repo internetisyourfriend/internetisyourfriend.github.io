@@ -178,3 +178,7 @@ p {
 	font: 24px 'Cormorant SC', serif;
 	color: #fff;
 }
+
+a:hover {
+	color: #820204;
+}

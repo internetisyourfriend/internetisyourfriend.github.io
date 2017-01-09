@@ -134,7 +134,7 @@ h1 {
 }
 
 .FLASH {
-	background: url(img/FLASH2.png) no-repeat center top;
+	background: url(img/FLASH3.png) no-repeat center top;
 }
 
 .picture__item4 {
@@ -183,4 +183,20 @@ h1 {
 
 	font: 24px 'Cormorant SC', serif;
 	color: #000;
+}
+
+a:hover {
+	color: #820204;
+}
+
+.SW, .BATMAN, .FLASH, .SPIDER, .SUPER, .IRON {
+	-webkit-filter: grayscale(100%);
+			filter: grayscale(100%);
+-webkit-transition: .3s ease-in-out;
+		transition: .3s ease-in-out;
+}
+
+.SW:hover, .BATMAN:hover, .FLASH:hover, .SPIDER:hover, .SUPER:hover, .IRON:hover {
+	-webkit-filter: grayscale(0);
+			filter: grayscale(0);
 }
