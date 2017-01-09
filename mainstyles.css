@@ -42,7 +42,7 @@ ul {
 
 h1 {
 	text-transform: uppercase;
-	font: 54px/54px 'Raleway', sans-serif;
+	font: 54px/54px 'Cormorant SC', serif;
 	color: #000;
 	text-align: center;
 }
@@ -80,17 +80,17 @@ h1 {
 }
 
 .container__navmenu li:first-child {
-	padding-right: 261px;
+	padding-right: 235px;
 }
 
 .container__navmenu li:last-child {
 	padding-right: 0;
-	padding-left: 291px;
+	padding-left: 250px;
 }
 
 .container__navmenu a {
 	text-transform: uppercase;
-	font: 24px 'Raleway', sans-serif;
+	font: 24px 'Cormorant SC', serif;
 	color: #000;
 }
 
@@ -181,6 +181,6 @@ h1 {
 	text-align: center;
 	padding: 30px 0;
 
-	font: 24px 'Raleway', sans-serif;
+	font: 24px 'Cormorant SC', serif;
 	color: #000;
 }
