@@ -61,7 +61,7 @@ h5 {
 }
 
 p {
-	font: 30px/30px 'Cormorant SC', serif;
+	font: 24px/24px 'Cormorant SC', serif;
 	color: #fff;
 	text-align: center;
 }
@@ -142,6 +142,10 @@ p {
 	float: left;
 	width: 50%;
 	height: 713px;
+}
+
+.section__block p {
+	padding: 8px 2px;
 }
 
 .section__addinfo {
