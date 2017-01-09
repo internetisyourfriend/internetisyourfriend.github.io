@@ -1,0 +1,151 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	background-color: #FFFFFF;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.box {
+	padding: 185px 0;
+}
+
+a {
+	text-decoration: none;
+	display: block;
+}
+
+li {
+	display: inline-block;
+}
+
+ul {
+	width: 100%;
+	list-style: none;
+}
+
+h1 {
+	text-transform: uppercase;
+	font: 54px/54px 'Cormorant SC', serif;
+	color: #000;
+	text-align: center;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {clear: both;}
+
+.left {float: left;}
+.right {float: right;}
+.text-right {text-align: right;}
+.text-left {text-align: left;}
+
+.header {
+	top: 20px;
+	left: 0;
+	right: 0;
+	width: 1200px;
+	padding: 20px 0;
+	margin: 0 auto;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 25px;
+	padding: 0 auto;
+}
+
+.container__navmenu li {
+	padding-right: 30px;
+}
+
+.container__navmenu li:first-child {
+	padding-right: 235px;
+}
+
+.container__navmenu li:last-child {
+	padding-right: 0;
+	padding-left: 250px;
+}
+
+.container__navmenu a {
+	text-transform: uppercase;
+	font: 24px 'Cormorant SC', serif;
+	color: #000;
+}
+
+.content {
+	width: 1200px;
+	height: 800px;
+	margin: 0 auto;
+}
+
+.text__block {
+	width: 1200px;
+	height: 250px;
+}
+
+.text__block h1 {
+	padding: 70px 0;
+}
+
+.links__section {
+	width: 1200px;
+	height: 400px;
+}
+
+.link__item {
+	float: left;
+	width: 33.33%;
+	padding: 90px 10px;
+}
+
+.link__item a img {
+	padding-left: 55px;
+}
+
+.email__section {
+	width: 1200px;
+	height: 150px;
+}
+
+h6 {
+	font: 24px 'Cormorant SC', serif;
+	color: #000;
+	text-align: center;
+}
+
+.footer {
+	width: 1200px;
+	height: 160px;
+	padding: 20px 0;
+	margin: 0 auto;
+}
+
+.footer__text {
+	text-align: center;
+	padding: 30px 0;
+
+	font: 24px 'Cormorant SC', serif;
+	color: #000;
+}
