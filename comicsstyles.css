@@ -96,39 +96,8 @@ h1 {
 
 .content {
 	width: 1200px;
-	height: 802px;
+	height: 3375px;
 	margin: 0 auto;
-}
-
-.content__banner {
-	width: 1200px;
-	height: 350px;
-	margin: 0 auto;
-	background: url(img/aboutbanner.png) no-repeat center top;
-	background-size: cover;
-}
-
-.content__mainblock {
-	width: 1200px;
-	height: 350px;
-	background: url(img/aboutbg.png);
-}
-
-.mainblock__text {
-	width: 1200px;
-	height: 452px;
-}
-
-.mainblock__text h1 {
-	font: 36px/36px 'Cormorant SC', serif;
-	color: #000;
-	text-align: center;
-	padding: 100px 0;
-}
-
-.mainblock__item {
-	width: 1200px;
-	height: 350px;
 }
 
 .footer {
@@ -149,3 +118,4 @@ h1 {
 a:hover {
 	color: #820204;
 }
+

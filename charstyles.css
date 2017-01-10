@@ -4,7 +4,7 @@ html {
 
 body {
 	height: 100%;
-	background-color: #0a0a0a;
+	background-color: #fff;
 }
 
 html, body {
@@ -43,26 +43,26 @@ ul {
 h1 {
 	text-transform: uppercase;
 	font: 54px/54px 'Cormorant SC', serif;
-	color: #fff;
+	color: #000;
 	text-align: center;
 }
 
 h3 {
 	text-transform: uppercase;
 	font: 36px/36px 'Cormorant SC', serif;
-	color: #fff;
+	color: #000;
 	text-align: center;
 }
 
 h5 {
 	font: 24px/24px 'Cormorant SC', serif;
-	color: #fff;
+	color: #000;
 	text-align: center;
 }
 
 p {
 	font: 24px/24px 'Cormorant SC', serif;
-	color: #fff;
+	color: #000;
 	text-align: center;
 }
 
@@ -110,23 +110,23 @@ p {
 .container__navmenu a {
 	text-transform: uppercase;
 	font: 24px 'Cormorant SC', serif;
-	color: #fff;
+	color: #000;
 }
 
 .content {
 	width: 1200px;
-	height: 1980px;
+	height: 2100px;
 	margin: 0 auto;
 }
 
 .content__info {
 	width: 1200px;
-	height: 325px;
+	height: 225px;
 }
 
 .content__info h1 {
 	font: 46px/46px 'Cormorant SC', serif;
-	padding-top: 55px;
+	padding-top: 20px;
 }
 
 .content__info h5 {
@@ -150,18 +150,20 @@ p {
 
 .section__addinfo {
 	width: 1200px;
-	height: 300px;
+	height: 562px;
 }
 
 .section__addinfo h3 {
-	padding-top: 130px;
+	padding: 50px 0;
+}
+
+.section__addinfo p {
+	padding: 10px 0;
 }
 
 .section__slider {
 	width: 1200px;
 	height: 600px;
-
-	margin-top: 50px;
 }
 
 .footer {
@@ -176,7 +178,7 @@ p {
 	padding: 30px 0;
 
 	font: 24px 'Cormorant SC', serif;
-	color: #fff;
+	color: #000;
 }
 
 a:hover {
