@@ -119,3 +119,14 @@ a:hover {
 	color: #820204;
 }
 
+.superman, .fables, .darth, .walking, .iron {
+	-webkit-filter: grayscale(100%);
+			filter: grayscale(100%);
+-webkit-transition: .3s ease-in-out;
+		transition: .3s ease-in-out;
+}
+
+.superman:hover, .fables:hover, .darth:hover, .walking:hover, .iron:hover {
+	-webkit-filter: grayscale(0);
+			filter: grayscale(0);
+}

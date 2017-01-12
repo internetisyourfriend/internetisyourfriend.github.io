@@ -100,14 +100,6 @@ h1 {
 	margin: 0 auto;
 }
 
-.content__banner {
-	width: 1200px;
-	height: 350px;
-	margin: 0 auto;
-	background: url(img/aboutbanner.png) no-repeat center top;
-	background-size: cover;
-}
-
 .content__mainblock {
 	width: 1200px;
 	height: 350px;
@@ -129,6 +121,8 @@ h1 {
 .mainblock__item {
 	width: 1200px;
 	height: 350px;
+	background: url(img/aboutbanner.png) no-repeat center top;
+	background-size: cover;
 }
 
 .footer {
